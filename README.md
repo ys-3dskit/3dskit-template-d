@@ -2,7 +2,7 @@
 
 Change this readme and the values in `xmake.lua` to configure the project.
 
-Ensure you have [LDC](https://dlang.org/download.html) on your system.
+Ensure you have [LDC](https://dlang.org/download.html) and devkitpro on your system.
 
 ## Building
 
@@ -12,4 +12,7 @@ Ensure you have [LDC](https://dlang.org/download.html) on your system.
 xmake f -p 3ds -m release -a arm --toolchain=devkitarm -y
 # build!
 xmake
+
+# run in citra
+xmake run
 ```
